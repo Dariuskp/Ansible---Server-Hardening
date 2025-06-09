@@ -175,3 +175,19 @@ ansible-playbook secure_lockdown.yml --step (I like to use '--step' just to have
 
 Example Report file included!
 
+
+
+
+---
+
+🌍 Use Cases
+
+- Internal DevSecOps environments
+- Chaos-ready automation (resilient provisioning)
+- Infrastructure compliance bootstrapping
+
+---
+
+🧠 About
+
+Created and maintained by Darius Powell
