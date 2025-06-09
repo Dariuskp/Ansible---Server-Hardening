@@ -164,10 +164,15 @@ sysctl_hardening:
 ansible-playbook secure_lockdown.yml --step (I like to use '--step' just to have more control over the configurations. Also, it is good practice for error handling!)
 
 ***Some flags that may be used*****
+
 --step - prompt before each task is ran
+
 --start-at-task"" --- start at a specific task
+
 --ask-become-pass ---- prompt for become password
+
 --ask-vault-pass ----- prompt for vault password
+
 
 
 
