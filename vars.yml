@@ -1,5 +1,5 @@
 ---
-allowed_ssh_users: dariusp
+allowed_ssh_users: your_user
 allowed_ssh_ports: 22
 disable_services:
   - cups
@@ -13,4 +13,4 @@ sysctl_hardening:
    net.ipv4.icmp_echo_ignore_broadcasts: 1
    net.ipv4.tcp_syncookies: 1
 email_addr:
-  - dariuspdevops@outlook.com
+  - your_email
