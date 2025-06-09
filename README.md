@@ -2,9 +2,13 @@
 Deep Linux Server Hardening with Ansible
 
 This project contains an Ansible playbook for deeply hardening a RHEL-based Linux server. The playbook includes SSH configuration, SELinux, Fail2Ban firewall setup, kernel hardening, service restrictions, auditing, auto-updates, and reporting.
+
  ****Be sure to change file paths and parameters as needed to match your system.*****
- ****Console Access will be the only way to remote in, besure to take snapshot of server or be logged in on another terminal. Reset setting manually if needed by editing '/etc/yum.conf' /etc/selinux
-Features
+
+ 
+ ****Console Access will be the only way to remote in, be sure to take snapshots of the server or be logged in on another terminal. Reset setting manually if needed by editing '/etc/yum.conf' /etc/selinux
+
+Features:
 
 SSH lockdown (no root, no password login)
 
