@@ -1,8 +1,9 @@
 # Ansible---Server-Hardening
 Deep Linux Server Hardening with Ansible
 
-This project contains an Ansible playbook for deeply hardening a RHEL-based Linux server. The playbook includes SSH configuration, firewall setup, kernel hardening, service restrictions, auditing, auto-updates, and reporting.
-
+This project contains an Ansible playbook for deeply hardening a RHEL-based Linux server. The playbook includes SSH configuration, SELinux, Fail2Ban firewall setup, kernel hardening, service restrictions, auditing, auto-updates, and reporting.
+ ****Be sure to change file paths and parameters as needed to match your system.*****
+ ****Console Access will be the only way to remote in, besure to take snapshot of server or be logged in on another terminal. Reset setting manually if needed by editing '/etc/yum.conf' /etc/selinux
 Features
 
 SSH lockdown (no root, no password login)
@@ -156,3 +157,10 @@ sysctl_hardening:
 
 🚀 Run the Playbook
 
+ansible-playbook secure_lockdown.yml --step (I like to use '--step' just to have more control over the configurations. Also, it is good practice for error handling!)
+
+***Some flags that may be used*****
+--step - prompt before each task is ran
+--start-at-task"" --- start at a specific task
+--ask-become-pass ---- prompt for become password
+--ask-vault-pass ----- prompt for vault password
