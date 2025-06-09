@@ -206,7 +206,7 @@
         shell: |
           mailx -s "System Harden Report - {{ ansible_date_time.date }}" \
             -a /home/user/patching_reports/secure_servers/secure_server.txt \
-            userdevops@outlook.com < /dev/null
+            user@outlook.com < /dev/null
 
       - name: Restart SSH
         service:
