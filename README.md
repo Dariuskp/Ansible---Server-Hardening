@@ -168,3 +168,23 @@ ansible-playbook secure_lockdown.yml --step (I like to use '--step' just to have
 --start-at-task"" --- start at a specific task
 --ask-become-pass ---- prompt for become password
 --ask-vault-pass ----- prompt for vault password
+
+
+
+
+
+Example Report file included!
+
+Server Hardening  Report
+--------------------------------
+Date          : Mon Jun  9 02:32:26 AM EDT 2025
+Machine       : rockyt2
+ 
+Hostname      : rockyt2
+Booted Kernel Version: Linux rockyt2 5.14.0-570.18.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Fri May 30 18:43:28 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+ 
+ 
+ 
+This server is now secure, sshd has been restarted. SSH logins are no longer allowed! Console access only!
+----------------------
+Uptime          :  02:32:28 up  6:01,  2 users,  load average: 0.26, 0.16, 0.09
