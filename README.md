@@ -175,7 +175,3 @@ ansible-playbook secure_lockdown.yml --step (I like to use '--step' just to have
 
 Example Report file included!
 
- 
-This server is now secure, sshd has been restarted. SSH logins are no longer allowed! Console access only!
-----------------------
-Uptime          :  02:32:28 up  6:01,  2 users,  load average: 0.26, 0.16, 0.09
